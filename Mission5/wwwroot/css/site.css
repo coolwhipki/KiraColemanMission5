@@ -1,0 +1,102 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+img {
+    height: 200px;
+}
+
+/*pink button for Privacy/ calc page*/
+.heart-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ff69b4; /* Pink color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.heart-button:hover {
+    background-color: #ff1493; /* Lighter pink color on hover */
+}
+
+/*Go back button on Privacy/ calc button*/
+.goBack {
+    display: inline-block;
+    padding: 2px 7px;
+    background-color: #ff69b4; /* Pink color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 11px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .goBack:hover {
+        background-color: #ff1493; /* Lighter pink color on hover */
+    }
+
+
+/*button for Index page*/
+.gray-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .gray-button:hover {
+        background-color: #333; /* Darker gray on hover */
+    }
+
+
+
+/*h3 on Privacy/ calc page*/
+h3 {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+
+/*make the grand total on Privacy/ calc page bigger and with a border*/
+.slay {
+    font-size: 30px; 
+    border: 2px solid hotpink; 
+    padding: 8px; 
+}
